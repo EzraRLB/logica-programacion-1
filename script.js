@@ -1,6 +1,6 @@
-let n1 = prompt("Ingrese el número 1:");
-let n2 = prompt("Ingrese el número 2:");
-let n3 = prompt("Ingrese el número 3:");
+let n1 = Number(prompt("Ingrese el número 1:"));
+let n2 = Number(prompt("Ingrese el número 2:"));
+let n3 = Number(prompt("Ingrese el número 3:"));
 
 function ascendingOrder(n1, n2, n3) {
     let arr = Array.of(n1, n2, n3);
